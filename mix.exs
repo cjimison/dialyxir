@@ -8,6 +8,7 @@ defmodule Dialyxir.Mixfile do
       elixir: "~> 1.0",
       description: description,
       package: package,
+      elixirc_options: [ignore_module_conflict: true],
       deps: []
     ]
   end
